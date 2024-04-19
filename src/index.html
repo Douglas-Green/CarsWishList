@@ -1,0 +1,86 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="index.js"
+      defer></script>
+    <title>ES6 Modules</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="container">
+        <form id="submitForm">
+          <div class="form-group">
+            <label for="makeInput">Make:</label>
+            <input
+              type="text"
+              id="make"
+              placeholder="Car Make"
+              class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="modelInput">Model:</label>
+            <input
+              type="text"
+              id="model"
+              placeholder="Car Model"
+              class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="yearInput">Year:</label>
+            <input
+              type="number"
+              max="2021"
+              min="1900"
+              id="year"
+              placeholder="Car Year"
+              class="form-control" />
+          </div>
+          <div class="form-group">
+            <button
+              id="submitBtn"
+              class="btn btn-primary">
+              Add
+            </button>
+          </div>
+        </form>
+      </section>
+      <hr />
+      <section class="container">
+        <div class="row">
+          <div
+            id="wishListContainer"
+            class="col-md-6">
+            <h3 id="wishlist-title">Wish List</h3>
+            <ul id="wishlist"></ul>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div
+                id="car-card"
+                class="card-body">
+                <h3 id="carDisplay">Vehicle</h3>
+                <p id="make-display"></p>
+                <p id="model-display"></p>
+                <p id="year-display"></p>
+                <button
+                  class="btn btn-warning removeBtn"
+                  id="remove-btn"
+                  disabled>
+                  Remove Car
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
