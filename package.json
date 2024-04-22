@@ -12,7 +12,7 @@
     "url": "git+https://github.com/Bryantellius/es6_modules.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Douglas Green",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Bryantellius/es6_modules/issues"
@@ -22,4 +22,5 @@
     "webpack": "^5.91.0",
     "webpack-cli": "^4.10.0"
   }
+  
 }

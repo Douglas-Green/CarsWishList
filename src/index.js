@@ -17,7 +17,7 @@ if (
   !form ||
   !makeInput ||
   !modelInput ||
-  !yearInput ||
+  !yearInput || 
   !makeDisplay ||
   !modelDisplay ||
   !yearDisplay ||
